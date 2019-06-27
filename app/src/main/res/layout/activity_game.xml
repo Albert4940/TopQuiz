@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.GameActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What's the name of the current Haitian president?"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="30dp"
+        />
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:text="Jovenel Moïse"
+        android:padding="25dp"
+        />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:text="René Préval"
+        android:padding="25dp"
+        />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:text="Michel Joseph Martelly"
+        android:padding="25dp"
+        />
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        android:text="Thug"
+        android:padding="25dp"
+        />
+</LinearLayout>
